@@ -23,12 +23,12 @@ from data_utils import (
 # CONFIG
 # =========================================================
 # Data paths    
-TRAIN_GRAPHS = "data/train_graphs.pkl"
-VAL_GRAPHS   = "data/validation_graphs.pkl"
-TEST_GRAPHS  = "data/test_graphs.pkl"
+TRAIN_GRAPHS = "/kaggle/input/data-challenge-altegrad/train_graphs.pkl"
+VAL_GRAPHS   = "/kaggle/input/data-challenge-altegrad/validation_graphs.pkl"
+TEST_GRAPHS  = "/kaggle/input/data-challenge-altegrad/test_graphs.pkl"
 
-TRAIN_EMB_CSV = "data/train_embeddings.csv"
-VAL_EMB_CSV   = "data/validation_embeddings.csv"
+TRAIN_EMB_CSV = "/kaggle/working/advanced_project_clone-/train_scibert_embeddings.csv"
+VAL_EMB_CSV   = "/kaggle/working/advanced_project_clone-/validation_scibert_embeddings.csv"
 
 # Training parameters
 BATCH_SIZE = 32
